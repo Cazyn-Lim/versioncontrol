@@ -13,7 +13,12 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('This file is added by ChanYE.'),
+          child: Column(
+            children: [
+              Text('Hello World! This is edited by SeeKT'),
+              Text("Hello World.This is branch.")
+            ],
+          )
         ),
       ),
     );
